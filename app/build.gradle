@@ -2,16 +2,18 @@ apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
 publish {
 
-    def groupProjectID = 'com.ahmed.beheiri.validationedittext'
-    def artifactProjectID = 'validationedittext'
+    def groupProjectID = 'com.ahmed.beheiri'
+    def artifactProjectID = 'validedittext'
     def publishVersionID = 'alpha01'
 
     userOrg = 'ahmedbeheiri'
-    repoName = 'ValidEditText'
+    repoName = 'VaidationEditText'
     groupId = groupProjectID
     artifactId = artifactProjectID
     publishVersion = publishVersionID
     desc = 'custom edit text with customized error and automatic validation'
+    website = 'https://github.com/AhmedBeheiri/EdittextlibJava'
+
 
 
 }
