@@ -7,7 +7,7 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-class ValidatorHelper {
+public class ValidatorHelper {
     private static List<ValidEditText> editTextsInContext = new ArrayList();
     private static Context mContext;
     private static List<EditTextModel> editTexts = new ArrayList<>();
